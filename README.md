@@ -33,8 +33,6 @@ The Word2Vec model is trained using the following parameters:
 - **Learning Rate:** Starts at 0.025 and decays linearly to 0.0001 over training epochs
 - **Workers:** Number of CPU cores used (leveraging multiprocessing)
 
-A manual learning rate decay is implemented to ensure that the effective learning rate decreases after each epoch, preventing warnings about "Effective 'alpha' higher than previous training cycles."
-
 ## Visualization
 The project includes visualization functions to help analyze the model's performance. For example, the nearest neighbor graph for the word **հայաստան** is generated using PCA for dimensionality reduction and saved in the plots folder.
 
